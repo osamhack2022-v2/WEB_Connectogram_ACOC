@@ -14,12 +14,17 @@ const globalConfig = {
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
         database: process.env.DB_DATABASE,
-        connectionLimit: 20,
+        connectionLimit: 2000,
         //waitForConnections: false,
         keepAliveInitialDelay: 1000 * 60 * 60,  //1시간마다 만료된 세션 체크
         enableKeepAlive: true,     // 만료된 세션을 삭제하기 위한 옵션, 
-                                // checkExpirationInterval에서 설정한 시간마다 체크하여 만료된 세션을 삭제한다.
+        // keepAliveInitialDelay에서 설정한 시간마다 체크하여 만료된 세션을 삭제한다.
     },
+    corsOptions: {
+        origin: ['http://144.24.89.242:3000', 'http://144.24.89.242', 'http://146.56.100.135:3000', 'http://146.56.100.135'],
+        credentials: true,            //access-control-allow-credentials:true
+        optionSuccessStatus: 200,
+    }
 }
 
 module.exports = globalConfig;

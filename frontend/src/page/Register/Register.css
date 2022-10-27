@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../font/NotoSansKR-Bold.otf");
+}
+
+@font-face {
+  font-family: "Noto Serif KR";
+  src: url("../font/NotoSerifKR-Medium.otf");
+}
+
+.Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url('./register_background.png');
+  background-size: cover;
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: calc(36px);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title {
+  margin-top: -48px;
+  color: #ffffff;
+  font-size: calc(160px);
+  font-family: 'Noto Serif KR', sans-serif;
+  margin-bottom: 32px;
+}
+
+.register_form {
+  margin-top: 36px;
+  color: #ffffff;
+  font-family: 'Noto Sans KR';
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 86px 28px 40px 28px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 5px 3px black;
+  align-items: center;
+  position: relative;
+}
+
+.register_input {
+  width: 90%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_input_icon {
+  background-color: rgb(1, 38, 78);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_inputbox {
+  background-color: rgb(56, 82, 114);
+  width: 240px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_icon {
+  position: absolute;
+  top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  width: 100px;
+  height: 100px;
+}
+
+.register_input_com {
+  height: 70%;
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+  margin-right: 8px;
+  margin-left: 8px;
+  border: 0px;
+  outline: none;
+}
+
+.register_button {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 16px 130px 16px 130px;
+  font-family: 'Noto Sans KR';
+  font-size: 16px;
+  color: #ffffff;
+  width: 344px;
+}
+
+.register_confirmbox {
+  background-color: rgb(213, 213, 213);
+  border-radius: 20px 20px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px);
+  color:black;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.register_confirmbox .green {
+  color:green;
+}
+
+.register_confirmbox .red {
+  color:red;
+}
+
+.login_button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 8px 145px 8px 145px;
+  font-family: 'Noto Sans KR';
+  font-size: 16px;
+  color: #ffffff;
+  width: 344px;
+}
