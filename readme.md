@@ -277,8 +277,8 @@ MIT License를 따릅니다. 자세한 사항은 `LICENSE` 파일을 참고해 �
 <td width="130" align="center">김경환</td>
 <td width="150" align="center">FE</td>
 <td width="150" align="left">
-	<a href="https://github.com/KyoungHwanKim">
-		<img src="http://img.shields.io/badge/KyoungHwanKim-655ced?style=social&logo=github"/>
+	<a href="https://github.com/kbhetrr">
+		<img src="http://img.shields.io/badge/kbhetrr-655ced?style=social&logo=github"/>
 	</a>
 </td>
 <td width="190" align="left">
